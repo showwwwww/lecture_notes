@@ -67,7 +67,7 @@
         <h2 class="sub-header">添加学生</h2>
 		<form action="/students/edit" method="post">
 			<!-- 提交不希望用户看到的数据 -->
-		 <input type="hidden" value="{{student.id}}" name="id">
+		 <input type="hidden" value="{{student._id}}" name="id">
 		  <div class="form-group">
 		    <label for="">姓名</label>
 		    <input type="text" class="form-control" name="name" value="{{student.name}}" id="" placeholder="name">
